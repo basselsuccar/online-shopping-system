@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="project1csc323.users.admin">
+    <Position X="1.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAQAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAEAAAAA=</HashCode>
+      <FileName>admin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="costumers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="project1csc323.users.costumer">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAIhAAAAQAAABQAAAQAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>costumer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="administrator" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="orders" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="project1csc323.users.user">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAChAAAAgAAAAAAAAAAIAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>user.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.feature.buyxgetyfree">
+    <Position X="11.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAQAAAAAYAA=</HashCode>
+      <FileName>buyxgetyfree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.feature.Discount">
+    <Position X="16.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAACAAACAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Discount.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="project1csc323.feature.Percentageoffdiscount">
+    <Position X="16.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Percentageoffdiscount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.feature.spendxgetydiscount">
+    <Position X="13.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAACAACCAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spendxgetydiscount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.Form1" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAANKADAAABEgQACEIABCAAASAAIoAgAIoIAEAAE=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.Program" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.orderbase.order">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAQAEAQgCAEBACAAAABAAAgAGAAAAABBIAAAE=</HashCode>
+      <FileName>order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="shipping" />
+      <Property Name="discount" />
+      <Property Name="storeproducts" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="project1csc323.orderbase.shippinginfo">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQEAAAAAAAQAAAAAAACAAAAAAAQAACAAAAAAAAAAE=</HashCode>
+      <FileName>shippinginfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.orderbase.shoppingcart">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAGAAAAAAAAYAAAABACAAAABAAAgACAAAAAhAJAAAE=</HashCode>
+      <FileName>shoppingcart.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="sortcart" />
+      <Property Name="storeproducts" />
+      <Property Name="discount" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="project1csc323.productbase.physicalproduct">
+    <Position X="6.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAQACAAACAAACAAAAAAACAAAAAEAAAAAA=</HashCode>
+      <FileName>physicalproduct.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="project1csc323.productbase.product">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAECAQAAAYAgAGAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.productbase.tickets">
+    <Position X="9" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAQABAAAAAAAACAAAABAAAAEQAEAAAAAA=</HashCode>
+      <FileName>ticket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.Properties.Resources" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.Properties.Settings" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.feature.sorting">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sorting.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="cart" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="project1csc323.orderbase.inventory">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAARABAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>inventory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="productsininventory" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="project1csc323.Form2" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAcEAANO0OhAIBEAgECAIABCECCSQJASiCKA6AYACAI=</HashCode>
+      <FileName>Form2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="project1csc323.Form3" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAgIDKcBCWbQRAIAgqEIAseAATIQHEoABACYBQAwCA=</HashCode>
+      <FileName>Form3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="project1csc323.feature.Idiscountoncart">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Idiscountoncart.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="project1csc323.feature.Idiscountonorder">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Idiscountonorder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="project1csc323.productbase.Iphysicalproduct" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAACAAACAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Iphysicalproduct.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="project1csc323.productbase.Iticket" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAABAAAAAAAACAAAABAAAAEQAAAAAAAA=</HashCode>
+      <FileName>Iticket.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="project1csc323.users.loginstatus">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>user.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="project1csc323.orderbase.orderstatus">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>order.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="shippingtype">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>shippinginfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
